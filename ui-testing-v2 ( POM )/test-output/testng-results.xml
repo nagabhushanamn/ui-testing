@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4303" started-at="2020-02-27T10:07:51Z" finished-at="2020-02-27T10:07:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4303" started-at="2020-02-27T10:07:51Z" finished-at="2020-02-27T10:07:55Z">
+      <class name="com.example.LoginTest">
+        <test-method status="PASS" signature="registerWebDriver()[pri:0, instance:com.example.LoginTest@675d3402]" name="registerWebDriver" is-config="true" duration-ms="6" started-at="2020-02-27T15:37:51Z" finished-at="2020-02-27T15:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWebDriver -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.example.LoginTest@675d3402]" name="launchBrowser" is-config="true" duration-ms="2144" started-at="2020-02-27T15:37:51Z" finished-at="2020-02-27T15:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginSuccess()[pri:0, instance:com.example.LoginTest@675d3402]" name="loginSuccess" duration-ms="254" started-at="2020-02-27T15:37:53Z" finished-at="2020-02-27T15:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.example.LoginTest@675d3402]" name="launchBrowser" is-config="true" duration-ms="1599" started-at="2020-02-27T15:37:53Z" finished-at="2020-02-27T15:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginFailure()[pri:0, instance:com.example.LoginTest@675d3402]" name="loginFailure" duration-ms="202" started-at="2020-02-27T15:37:55Z" finished-at="2020-02-27T15:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailure -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.example.LoginTest@675d3402]" name="closeBrowser" is-config="true" duration-ms="83" started-at="2020-02-27T15:37:55Z" finished-at="2020-02-27T15:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.example.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
