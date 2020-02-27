@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="calc-add(failed)" parallel="methods">
+    <classes>
+      <class name="com.example.CalculatorTest">
+        <methods>
+          <include name="registerWebDriver"/>
+          <include name="add1And2"/>
+          <include name="terminateBrowser"/>
+          <include name="clearInputFields"/>
+          <include name="launchBrowser"/>
+          <include name="add100And200"/>
+        </methods>
+      </class> <!-- com.example.CalculatorTest -->
+    </classes>
+  </test> <!-- calc-add(failed) -->
+</suite> <!-- Failed suite [Suite] -->

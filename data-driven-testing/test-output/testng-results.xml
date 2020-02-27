@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22358" started-at="2020-02-26T12:23:32Z" finished-at="2020-02-26T12:23:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22358" started-at="2020-02-26T12:23:32Z" finished-at="2020-02-26T12:23:55Z">
+      <class name="com.example.LoginTest">
+        <test-method status="PASS" signature="registerWebDriver()[pri:0, instance:com.example.LoginTest@39aeed2f]" name="registerWebDriver" is-config="true" duration-ms="6" started-at="2020-02-26T17:53:32Z" finished-at="2020-02-26T17:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWebDriver -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.example.LoginTest@39aeed2f]" name="launchBrowser" is-config="true" duration-ms="15106" started-at="2020-02-26T17:53:32Z" finished-at="2020-02-26T17:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.example.LoginTest@39aeed2f]" name="login" duration-ms="4197" started-at="2020-02-26T17:53:48Z" data-provider="user_credentails" finished-at="2020-02-26T17:53:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blt_user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blt_user1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[blt_user1@mail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.example.LoginTest@39aeed2f]" name="logout" is-config="true" duration-ms="2532" started-at="2020-02-26T17:53:52Z" finished-at="2020-02-26T17:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.example.LoginTest@39aeed2f]" name="closeBrowser" is-config="true" duration-ms="83" started-at="2020-02-26T17:53:55Z" finished-at="2020-02-26T17:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.example.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Default suite]" duration-ms="2636" started-at="2020-02-21T16:54:20 IST" finished-at="2020-02-21T16:54:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test(failed)" duration-ms="2636" started-at="2020-02-21T16:54:20 IST" finished-at="2020-02-21T16:54:22 IST">
+      <class name="com.example.CalculatorTest">
+        <test-method status="PASS" signature="registerWebDriver()[pri:0, instance:com.example.CalculatorTest@210366b4]" name="registerWebDriver" is-config="true" duration-ms="10" started-at="2020-02-21T16:54:20 IST" finished-at="2020-02-21T16:54:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWebDriver -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.example.CalculatorTest@210366b4]" name="launchBrowser" is-config="true" duration-ms="2260" started-at="2020-02-21T16:54:20 IST" finished-at="2020-02-21T16:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="clearInputFields()[pri:0, instance:com.example.CalculatorTest@210366b4]" name="clearInputFields" is-config="true" duration-ms="83" started-at="2020-02-21T16:54:22 IST" finished-at="2020-02-21T16:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearInputFields -->
+        <test-method status="PASS" signature="add(int, int, int)[pri:0, instance:com.example.CalculatorTest@210366b4]" name="add" duration-ms="188" started-at="2020-02-21T16:54:22 IST" data-provider="number_factory" finished-at="2020-02-21T16:54:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.example.CalculatorTest@210366b4]" name="terminateBrowser" is-config="true" duration-ms="78" started-at="2020-02-21T16:54:22 IST" finished-at="2020-02-21T16:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.example.CalculatorTest -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
