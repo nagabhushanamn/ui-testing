@@ -19,6 +19,7 @@ public class PayPage extends BasePage {
 	private WebElement txrBtn;
 
 	public PayPage(WebDriver driver) {
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
