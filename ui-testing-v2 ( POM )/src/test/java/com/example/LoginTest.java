@@ -37,7 +37,7 @@ public class LoginTest {
 		driver.manage().window().maximize();
 
 		indexPage = new IndexPage(driver); // page-object
-		homePage = new HomePage(driver);
+		homePage = new HomePage(driver); // 
 
 	}
 
