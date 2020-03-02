@@ -15,8 +15,14 @@ public class TxrServiceImpl implements TxrService {
 
 	@Transactional
 	public boolean txr(double amount, String fromAccNum, String toAccNum) {
-		Account fromAccount = accountRepository.findById(fromAccNum).get();
-		Account toAccount = accountRepository.findById(toAccNum).get();
+		Account fromAccount = 
+				accountRepository
+				.findById(fromAccNum)
+				.orElseThrow(()->new TxrException("account - "+fromAccNum +" not exist"));
+		Account toAccount = accountRepository
+				.findById(toAccNum)
+				.orElseThrow(()->new TxrException("account - "+toAccNum +" not exist"));
+		if(fromAccount.getBalance()<amount)throw new TxrException("No enough funds");
 		fromAccount.setBalance(fromAccount.getBalance() - amount);
 		toAccount.setBalance(toAccount.getBalance() + amount);
 		accountRepository.save(fromAccount);

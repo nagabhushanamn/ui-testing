@@ -25,21 +25,10 @@
 	<hr />
 
 
-	<div class="jumbotron">
-		<table class="table table-bordered">
-			<tr>
-				<th>Account</th>
-				<th>Balance</th>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>${account.balance}</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>${otherAccount.balance}</td>
-			</tr>
-		</table>
+	<div class="">
+		<div class="alert alert-danger">
+			${ex.message}
+		</div>
 	</div>
 
 

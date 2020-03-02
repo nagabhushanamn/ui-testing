@@ -20,16 +20,12 @@
 		<li class="nav-item">
 			<a class="nav-link" href="txr">Pay</a>
 		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="account">Account</a>
-		</li>
+		<li class="nav-item"><a class="nav-link" href="accounts">Accounts</a>
 		<li class="nav-item">
 			<a class="nav-link" href="logout">logout</a>
 		</li>
 	</ul>
 
-	<hr />
-	balance : ${account.balance}
 	<hr />
 
 	<div class="row">
@@ -54,6 +50,13 @@
 					</div>
 				</div>
 			</form>
+		</div>
+		<div class="col-5 col-sm-5 col-md-5">
+		<table class="bg-info table table-bordered">
+			<tr><th>Account</th><th>Balance</th></tr>
+			<tr><td>1</td><td>${account.balance}</td></tr>
+			<tr><td>2</td><td>${otherAccount.balance}</td></tr>
+		</table>
 		</div>
 	</div>
 

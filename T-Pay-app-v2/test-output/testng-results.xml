@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3133" started-at="2020-03-02T11:48:22Z" finished-at="2020-03-02T11:48:26Z">
+    <groups>
+    </groups>
+    <test name="headless-browser-test" duration-ms="3133" started-at="2020-03-02T11:48:22Z" finished-at="2020-03-02T11:48:26Z">
+      <class name="com.example.demo.tdd.LoginUITest">
+        <test-method status="PASS" signature="launchChromeBrowser(java.lang.String)[pri:0, instance:com.example.demo.tdd.LoginUITest@618b19ad]" name="launchChromeBrowser" is-config="true" duration-ms="2063" started-at="2020-03-02T11:48:22Z" finished-at="2020-03-02T11:48:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChromeBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.example.demo.tdd.LoginUITest@618b19ad]" name="login" duration-ms="392" started-at="2020-03-02T11:48:25Z" data-provider="users" finished-at="2020-03-02T11:48:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.example.demo.tdd.LoginUITest@618b19ad]" name="login" duration-ms="166" started-at="2020-03-02T11:48:25Z" data-provider="users" finished-at="2020-03-02T11:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.example.demo.tdd.LoginUITest@618b19ad]" name="terminateBrowser" is-config="true" duration-ms="3" started-at="2020-03-02T11:48:26Z" finished-at="2020-03-02T11:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.example.demo.tdd.LoginUITest -->
+    </test> <!-- headless-browser-test -->
+  </suite> <!-- Suite -->
+</testng-results>

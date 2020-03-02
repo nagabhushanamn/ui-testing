@@ -9,27 +9,20 @@
 <body class="container">
 	<hr />
 	<h1>T-pay</h1>
-	<hr />
-
-	<hr />
-	
 	<ul class="nav nav-pills">
-		<li class="nav-item">
-			<a class="nav-link" href="home">Home</a>
+		<li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+		<li class="nav-item"><a class="nav-link" href="txr">Pay</a></li>
+		<li class="nav-item"><a class="nav-link" href="accounts">Accounts</a>
 		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="txr">Pay</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="account">Account</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="logout">logout</a>
+		<li class="nav-item"><a class="nav-link" href="logout">logout</a>
 		</li>
 	</ul>
 
 	<hr />
-
+	<hr />
+	welcome :
+	<span>${user}</span>
+	<hr />
 
 	<div class="jumbotron">
 		<h1 class="display-4">Hello, welcome to T-pay!</h1>
